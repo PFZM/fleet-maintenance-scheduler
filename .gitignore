@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# macOS and Windows metadata
+.DS_Store
+Thumbs.db
+
+# Streamlit cache & logs
+.streamlit/config.toml
+.streamlit/*.json
+.streamlit/*.log
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
+
+# Local data files (optional — keep or remove depending on your intent)
+data/*.csv
+!data/flight_delays.csv  # Keep this one if you want it tracked
+
+# Log files
+*.log
+
+# Python environment files
+*.env
+.env
+.env.*
+
+# Output files
+*.png
+*.pdf
+*.svg
+
+# But keep the dashboard preview
+!assets/screenshot.png
